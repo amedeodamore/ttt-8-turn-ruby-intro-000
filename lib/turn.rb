@@ -25,13 +25,13 @@ def position_taken?(board,index)
     taken = true
   end
   taken
-  
-end
-
-def move
 
 end
 
-def turn
+#def move
 
-end
+#end
+
+#def turn
+
+#end
