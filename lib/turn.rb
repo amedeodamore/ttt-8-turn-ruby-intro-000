@@ -29,9 +29,9 @@ def position_taken?(board,index)
   taken
 end
 
-#def move
-
-#end
+def move(board, index, current_player = "X")
+  board[index] = current_player
+end
 
 #def turn
 
