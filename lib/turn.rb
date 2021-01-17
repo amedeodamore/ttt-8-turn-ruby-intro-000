@@ -33,7 +33,7 @@ def move(board, index, current_player = "X")
   board[index] = current_player
 end
 
-def turn(board)
+def turn(board, user_input, index, current_player = "X")
 puts "Please enter 1-9:"
-
+gets.user_input
 end
