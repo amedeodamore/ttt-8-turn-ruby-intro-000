@@ -16,6 +16,8 @@ if index.between?(0,8)
   if !position_taken?(board,index)
     true
 end
+end
+end
 
 def position_taken?(board,index)
   taken = nil
@@ -25,7 +27,6 @@ def position_taken?(board,index)
     taken = true
   end
   taken
-
 end
 
 #def move
